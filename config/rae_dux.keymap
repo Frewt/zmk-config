@@ -114,9 +114,9 @@
         // RSTHD
 		rsthd_layer {
 			bindings = <
-                   &kp Z        &kp C         &kp Y         &kp F              &kp P              &kp X               &kp M            &kp APOS                 &kp U         &kp Q
-                   &lhm LALT R  &lhm LSHFT S  &lhm LCTRL T  &lhm LGUI H        &kp D              &kp L               &rhm LGUI N      &rhm LCTRL A             &rhm LSHFT I  &rhm LALT O
-                   &sk LSHIFT   &kp V         &kp G         &kp K              &kp B              &kp W               &kp J            &kp COMMA                &key_repeat   &sk LSHIFT
+                   &kp Q        &kp W         &kp E         &kp R              &kp T              &kp Y               &kp U            &kp I                 &kp O         &kp P
+                   &lhm LALT A  &lhm LSHFT S  &lhm LCTRL D  &lhm LGUI F        &kp G              &kp H               &rhm LGUI J      &rhm LCTRL K             &rhm LSHFT L  &rhm LALT O
+                   &kp Z   &kp X         &kp C         &kp V              &kp B              &kp W               &kp N            &kp M                &key_repeat   &sk LSHIFT
 				 /*&            &*/           &kp ESC       &base_lt NAV_L SPC &base_lt SYM_L TAB &base_lt SYM_L BSPC &base_lt NUM_L E &base_lt FUN_L DOT    /* &             &*/
 			>;
 		};

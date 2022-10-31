@@ -117,7 +117,7 @@
                    &kp Q        &kp W         &kp E         &kp R              &kp T              &kp Y               &kp U            &kp I                 &kp O         &kp P
                    &lhm LALT A  &lhm LSHFT S  &lhm LCTRL D  &lhm LGUI F        &kp G              &kp H               &rhm LGUI J      &rhm LCTRL K             &rhm LSHFT L  &rhm LALT O
                    &kp Z   &kp X         &kp C         &kp V              &kp B              &kp W               &kp N            &kp M                &key_repeat   &sk LSHIFT
-				 /*&            &*/           &kp ESC       &base_lt NAV_L SPC &base_lt SYM_L TAB &base_lt SYM_L BSPC &base_lt NUM_L E &base_lt FUN_L DOT    /* &             &*/
+				 /*&            &*/           &kp ESC       &base_lt NAV_L SPC &base_lt SYM_L TAB &base_lt SYM_L BSPC &base_lt NUM_L SPC &base_lt FUN_L DOT    /* &             &*/
 			>;
 		};
 

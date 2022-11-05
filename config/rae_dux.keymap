@@ -4,6 +4,7 @@
 
 #define DEFAULT 0
 #define BLUE    1
+#define COLE    2
 
 / {
     keymap {
@@ -14,15 +15,24 @@
     &kp Q    &kp W    &kp E     &kp R     &kp T          &kp Y     &kp U     &kp I     &kp O     &kp P
     &kp A    &kp S    &kp D     &kp F     &kp G          &kp H     &kp J     &kp K     &kp L     &kp SEMI
     &kp Z    &kp X    &kp C     &kp V     &kp B          &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH
-                      &kp LGUI  &kp DEL   &mo BLUE        &kp BSPC  &kp SPACE &kp RET
+                      &kp LSHIFT  &kp DEL   &mo BLUE        &kp BSPC  &kp SPACE &kp RET
             >;
         };
         
         bluetooth_layer {
             bindings = <
-    &kp Q    &kp W    &kp E     &kp R     &kp T          &kp Y     &kp U     &kp I     &kp O     &bt BT_CLR
-    &kp A    &kp S    &kp D     &kp F     &kp G          &kp H     &kp J     &kp K     &kp L     &kp APOS
-    &kp Z    &kp X    &kp C     &kp V     &kp B          &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH
+    &kp Q      &kp W    &kp E     &kp R     &kp T          &kp Y     &kp U     &kp I     &kp O     &bt BT_CLR
+    &kp A      &kp S    &kp D     &kp F     &kp G          &kp H     &kp J     &kp K     &kp L     &kp APOS
+    &tog COLE  &kp X    &kp C     &kp V     &kp B          &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH
+                      &kp LSHIFT  &kp DEL   &mo BLUE        &kp BSPC  &kp SPACE &kp RET
+            >;
+        };
+        
+        colemak_layer {
+            bindings = <
+    &kp Q    &kp W    &kp F     &kp P     &kp B          &kp J     &kp L     &kp U     &kp Y     &kp APOs
+    &kp A    &kp R    &kp S     &kp T     &kp G          &kp M     &kp N     &kp E     &kp I     &kp O
+    &kp Z    &kp X    &kp C     &kp D     &kp V          &kp K     &kp H     &kp COMMA &kp DOT   &kp FSLH
                       &kp LSHIFT  &kp DEL   &mo BLUE        &kp BSPC  &kp SPACE &kp RET
             >;
         };

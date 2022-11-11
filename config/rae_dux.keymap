@@ -34,7 +34,7 @@
     &kp LALT    &kp N7    &kp N8     &kp N9     &kp EQUAL          &none     &none        &none     &none     &none
     &kp LSHIFT  &kp N4    &kp N5     &kp N6     &kp MINUS          &none     &none        &none     &none     &none
     &kp LCTRL   &kp N1    &kp N2     &kp N3     &none              &none     &none        &none     &none     &none
-                          &none      &N0        &kp LGUI           &none     &mo NUM_SYM  &none
+                          &none      &kp N0     &kp LGUI           &none     &mo NUM_SYM  &none
             >;
             
         fun_blue_layer {

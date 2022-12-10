@@ -6,6 +6,7 @@
 #define QUICK        1
 #define NUM_SYM      2
 #define FUN          3
+#define QWERTY       4
 
 / {
     keymap {
@@ -13,7 +14,7 @@
 
         colemak_layer {
             bindings = <
-    &kp Q    &kp W    &kp F     &kp P     &kp B          &kp J     &kp L     &kp U     &kp Y     &kp SEMI
+    &kp Q    &kp W    &kp F     &kp P     &kp B          &kp J     &kp L     &kp U     &kp Y     &kp APOS
     &kp A    &kp R    &kp S     &kp T     &kp G          &kp M     &kp N     &kp E     &kp I     &kp O
     &kp Z    &kp X    &kp C     &kp D     &kp V          &kp K     &kp H     &kp COMMA &kp DOT   &kp FSLH
                       &kp LCTRL  &mo QUICK   &mo FUN     &mo NUM_SYM  &kp SPACE &kp LSHIFT
@@ -23,7 +24,7 @@
         quick_acces_layer {
             bindings = <
     &kp ESC    &kp GRAVE    &none       &none         &none          &kp HOME     &kp PG_DN       &kp PG_UP   &kp END     &kp BSPC
-    &sk LCTRL  &sk LSHIFT   &sk LALT    &sk LGUI      &kp TAB        &kp LEFT     &kp DOWN        &kp UP      &kp RIGHT   &kp APOS
+    &sk LCTRL  &sk LSHIFT   &sk LALT    &sk LGUI      &kp TAB        &kp LEFT     &kp DOWN        &kp UP      &kp RIGHT   &kp SEMI
     &kp LCTRL  &kp LSHIFT   &kp LALT    &kp LGUI      &none          &kp LBKT     &kp RBKT        &kp LPAR    &kp RPAR    &kp BSLH
                             &kp LSHIFT  &mo QUICK     &none          &none        &kp RET         &none
             >;
@@ -40,10 +41,19 @@
             
         fun_blue_layer {
             bindings = <
-    &none   &kp F7    &kp F8     &kp F9     &kp F10          &none     &none    &none     &none     &bt BT_CLR
+    &tog QWERTY   &kp F7    &kp F8     &kp F9     &kp F10          &none     &none    &none     &none     &bt BT_CLR
     &none   &kp F4    &kp F5     &kp F6     &kp F11          &none     &none    &none     &none     &none
     &none   &kp F1    &kp F2     &kp F3     &kp F12          &none     &none    &none     &none     &none
                       &none      &none      &mo FUN          &none     &none    &none
+            >;
+        };
+        
+        QWERTY_layer {
+            bindings = <
+    &kp Q    &kp W    &kp E     &kp R     &kp T          &kp Y     &kp U     &kp I     &kp O     &kp P
+    &kp A    &kp S    &kp D     &kp F     &kp G          &kp H     &kp J     &kp K     &kp L     &kp APOS
+    &kp Z    &kp X    &kp C     &kp V     &kp B          &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH
+                      &none      &none      &mo FUN          &none     &none    &tog QWERTY
             >;
         };
     };

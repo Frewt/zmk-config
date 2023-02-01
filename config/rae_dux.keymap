@@ -6,7 +6,7 @@
 #define QUICK        1
 #define NUM_SYM      2
 #define FUN          3
-#define QWERTY       4
+#define GAMING       4
 
 / {
     keymap {
@@ -26,7 +26,7 @@
     &kp ESC    &kp GRAVE    &kp LPAR    &kp LBKT      &kp LBRC          &kp HOME     &kp PG_DN       &kp PG_UP   &kp END     &kp BSPC
     &sk LCTRL  &sk LSHIFT   &sk LALT    &sk LGUI      &kp TAB        &kp LEFT     &kp DOWN        &kp UP      &kp RIGHT   &kp SEMI
     &kp LCTRL  &kp LSHIFT   &kp LALT    &kp LGUI      &none          &kp LBKT     &kp RBKT        &kp LPAR    &kp RPAR    &kp BSLH
-                            &kp LSHIFT  &mo QUICK     &none          &none        &kp RET         &none
+                            &kp LSHIFT  &mo QUICK     &none          &kp DELETE   &kp RET         &none
             >;
         };
         
@@ -41,19 +41,19 @@
             
         fun_blue_layer {
             bindings = <
-    &tog QWERTY   &kp F7    &kp F8     &kp F9     &kp F10          &none     &none    &none     &none     &bt BT_CLR
+    &tog GAMING   &kp F7    &kp F8     &kp F9     &kp F10          &none     &none    &none     &none     &bt BT_CLR
     &none   &kp F4    &kp F5     &kp F6     &kp F11          &none     &none    &none     &none     &none
     &none   &kp F1    &kp F2     &kp F3     &kp F12          &none     &none    &none     &none     &none
                       &none      &none      &mo FUN          &none     &none    &none
             >;
         };
         
-        QWERTY_layer {
+        GAMING_layer {
             bindings = <
-    &kp Q    &kp W    &kp E     &kp R     &kp T          &kp Y     &kp U     &kp I     &kp O     &kp P
-    &kp A    &kp S    &kp D     &kp F     &kp G          &kp H     &kp J     &kp K     &kp L     &kp APOS
-    &kp Z    &kp X    &kp C     &kp V     &kp B          &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH
-                      &kp LSHIFT      &kp SPACE      &kp DEL          &kp BSPC     &kp SPACE    &tog QWERTY
+    &kp N1        &kp N2   &kp N3    &kp N4    &kp N5         &kp Y     &kp U     &kp I     &kp O     &kp P
+    &kp LSHIFT    &kp A    &kp W     &kp D     &kp E          &kp H     &kp J     &kp K     &kp L     &kp APOS
+    &kp LCTRL     &kp C    &kp S     &kp F     &kp R          &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH
+                      &kp LSHIFT      &kp SPACE  &MO QUICK          &kp BSPC     &tog GAMING    &none
             >;
         };
     };

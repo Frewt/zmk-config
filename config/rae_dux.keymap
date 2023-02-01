@@ -53,7 +53,7 @@
     &kp N1        &kp N2   &kp N3    &kp N4    &kp N5         &kp Y     &kp U     &kp I     &kp O     &kp P
     &kp LSHIFT    &kp A    &kp W     &kp D     &kp E          &kp H     &kp J     &kp K     &kp L     &kp APOS
     &kp LCTRL     &kp C    &kp S     &kp F     &kp R          &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH
-                      &kp LSHIFT      &kp SPACE  &MO QUICK          &kp BSPC     &tog GAMING    &none
+                      &kp LSHIFT      &kp SPACE  &mo QUICK          &kp BSPC     &tog GAMING    &none
             >;
         };
     };

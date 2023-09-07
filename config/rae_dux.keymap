@@ -18,7 +18,7 @@
     &kp Q    &kp W    &kp F     &kp P     &kp B          &kp J     &kp L     &kp U     &kp Y     &kp APOS
     &kp A    &kp R    &kp S     &kp T     &kp G          &kp M     &kp N     &kp E     &kp I     &kp O
     &kp Z    &kp X    &kp C     &kp D     &kp V          &kp K     &kp H     &kp COMMA &kp DOT   &kp FSLH
-                      &kp LCTRL  &mo QUICK   &mo FUN     &mo NUM_SYM  &kp SPACE &kp LSHIFT
+                      &tog NUM_SYM  &mo QUICK   &mo FUN     &mo NUM_SYM  &kp SPACE &kp LSHIFT
             >;
         };
         
@@ -36,7 +36,7 @@
     &kp LALT    &kp N7    &kp N8     &kp N9     &kp EQUAL          &none        &none          &none         &none     &none
     &kp LSHIFT  &kp N4    &kp N5     &kp N6     &kp MINUS          &kp C_MUTE   &kp C_VOL_DN   &kp C_VOL_UP  &none     &none
     &kp LCTRL   &kp N1    &kp N2     &kp N3     &none              &none        &none          &none         &none     &none
-                          &none      &kp N0     &kp LGUI           &none        &mo NUM_SYM    &none
+                          &tog NUM_SYM      &kp N0     &kp LGUI           &none        &mo NUM_SYM    &none
             >;
         };
             

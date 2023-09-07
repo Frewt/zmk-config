@@ -24,9 +24,9 @@
         
         quick_acces_layer {
             bindings = <
-    &kp ESC    &kp GRAVE    &kp LPAR    &kp LBKT      &kp LBRC          &kp HOME     &kp PG_DN       &kp PG_UP   &kp END     &kp BSPC
-    &sk LCTRL  &sk LSHIFT   &sk LALT    &sk LGUI      &kp TAB        &kp LEFT     &kp DOWN        &kp UP      &kp RIGHT   &kp SEMI
-    &kp LCTRL  &kp LSHIFT   &kp LALT    &kp LGUI      &none          &kp LBKT     &kp RBKT        &kp LPAR    &kp RPAR    &kp BSLH
+    &kp ESC    &kp GRAVE    &kp LPAR    &kp LBKT      &kp LBRC       &kp HOME     &kp PG_DN       &kp PG_UP   &kp END     &kp BSPC
+    &sk LGUI   &sk LALT     &sk LCTRL   &sk SHIFT     &kp TAB        &kp LEFT     &kp DOWN        &kp UP      &kp RIGHT   &kp SEMI
+    &kp LGUI   &kp LPAR     &kp LBKT    &kp LBRC      &none          &kp LBKT     &kp RBKT        &kp LPAR    &kp RPAR    &kp BSLH
                             &kp LSHIFT  &mo QUICK     &none          &kp DELETE   &kp RET         &none
             >;
         };

@@ -19,7 +19,7 @@
     &kp Q    &kp W    &kp F     &kp P     &kp B          &kp J     &kp L     &kp U     &kp Y     &kp APOS
     &kp A    &kp R    &kp S     &kp T     &kp G          &kp M     &kp N     &kp E     &kp I     &kp O
     &kp Z    &kp X    &kp C     &kp D     &kp V          &kp K     &kp H     &kp COMMA &kp DOT   &kp FSLH
-                      &kp LSHIFT  &mo QUICK   &mo FUN     &none  &kp SPACE &mo NUM_SYM
+                      &mo NUM_SYM  &mo QUICK   &mo FUN     &none  &kp SPACE &none
             >;
         };
         
@@ -27,17 +27,17 @@
             bindings = <
     &kp ESC    &kp GRAVE    &none       &none         &none          &kp HOME     &kp PG_DN       &kp PG_UP   &kp END     &kp BSPC
     &sk LGUI   &sk LALT     &sk LCTRL   &sk LSHIFT    &kp TAB        &kp LEFT     &kp DOWN        &kp UP      &kp RIGHT   &kp SEMI
-    &kp LGUI   &kp LPAR     &kp LBKT    &kp LBRC      &kp CAPS       &none        &kp RBRC        &kp RBKT    &kp RPAR    &kp BSLH
-                            &kp LSHIFT  &mo QUICK     &none          &kp BSPC     &kp RET         &kp DELETE
+    &kp LGUI   &kp LBRC     &kp LBKT    &kp LPAR      &kp CAPS       &none        &kp RPAR        &kp RBKT    &kp RBRC    &kp BSLH
+                            &none  &mo QUICK     &none          &kp BSPC     &kp RET         &kp DELETE
             >;
         };
         
         num_sym_layer {
             bindings = <
-    &kp LALT    &kp N7    &kp N8     &kp N9     &kp EQUAL          &none        &none          &none         &none     &none
-    &kp LSHIFT  &kp N4    &kp N5     &kp N6     &kp MINUS          &kp C_MUTE   &kp C_VOL_DN   &kp C_VOL_UP  &none     &none
-    &kp LCTRL   &kp N1    &kp N2     &kp N3     &none              &none        &none          &none         &none     &none
-                          &tog NUM_SYM      &kp N0     &kp LGUI           &none  &kp SPACE &mo NUM_SYM
+    &kp ESC    &kp GRAVE    &none       &none         &none          &none     &kp N7       &kp N8   &kp N9     &kp DOT
+    &sk LGUI   &sk LALT     &sk LCTRL   &sk LSHIFT    &kp TAB        &kp TAB     &kp N4        &kp N5      &kp N6   &kp MINUS
+    &kp LGUI   &kp LBRC     &kp LBKT    &kp LPAR      &kp CAPS       &none        &kp N1        &kp N2    &kp N3    &kp EQUAL
+                          &mo NUM_SYM      &none     &none           &none  &kp N0 &none
             >;
         };
             

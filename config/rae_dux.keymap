@@ -16,7 +16,7 @@ compatible = "zmk,combos";
 combo_minus {
 timeout-ms = <50>;
 key-positions = <7 8>;
-bindings = <&kp kp_minus>;
+bindings = <&kp KP_MINUS>;
 layers = <1>;
     };
   };

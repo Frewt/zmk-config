@@ -17,25 +17,31 @@ compatible = "zmk,combos";
         timeout-ms = <50>;
         key-positions = <6 7>;
         bindings = <&kp KP_MINUS>;
-        layers = <1>;
+        layers = <2>;
     };
     combo_plus {
         timeout-ms = <50>;
         key-positions = <7 8>;
         bindings = <&kp KP_PLUS>;
-        layers = <1>;
+        layers = <2>;
     };    
     combo_underscore {
         timeout-ms = <50>;
         key-positions = <26 27>;
         bindings = <&kp UNDER>;
-        layers = <1>;
+        layers = <2>;
     };
     combo_equal {
         timeout-ms = <50>;
         key-positions = <27 28>;
         bindings = <&kp KP_EQUAL>;
-        layers = <1>;
+        layers = <2>;
+    };
+    combo_esc {
+        timeout-ms = <50>;
+        key-positions = <1 2>;
+        bindings = <&kp ESC>;
+        layers = <0>;
     };
   };
 };

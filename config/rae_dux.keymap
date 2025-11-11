@@ -9,6 +9,7 @@
 #define GAMING_1     4
 #define GAMING_2     5
 #define GAMING_3     6
+#define QWERTY       7
 
 / {
 combos {
@@ -80,7 +81,7 @@ compatible = "zmk,combos";
         fun_blue_layer {
             bindings = <
     &tog GAMING_1   &kp F7    &kp F8     &kp F9     &kp F10          &none     &none    &none     &none     &bt BT_CLR
-    &none   &kp F4    &kp F5     &kp F6     &kp F11          &none     &kp C_VOL_DN    &kp C_VOL_UP     &none     &none
+    &tog QWERTY   &kp F4    &kp F5     &kp F6     &kp F11          &none     &kp C_VOL_DN    &kp C_VOL_UP     &none     &none
     &none   &kp F1    &kp F2     &kp F3     &kp F12          &none     &none    &none     &none     &none
                       &none      &none      &mo FUN          &none     &none    &mo FUN
             >;
@@ -110,6 +111,15 @@ compatible = "zmk,combos";
     &kp TAB         &kp A    &kp W     &kp D     &kp T          &kp H     &kp J     &kp K     &kp L     &kp APOS
     &kp Z         &kp X    &kp S     &kp V     &kp G          &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH
                   &mo GAMING_2      &kp SPACE  &mo GAMING_3          &kp BSPC     &tog GAMING_1    &none
+            >;
+        };
+
+        qwerty_layer {
+            bindings = <
+    &kp Q    &kp W    &kp E     &kp R     &kp T          &kp Y     &kp U     &kp I     &kp O     &kp P
+    &kp A    &kp S    &kp D     &kp F     &kp G          &kp H     &kp J     &kp K     &kp L     &kp APOS
+    &kp Z    &kp X    &kp C     &kp V     &kp B          &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH
+                      &mo NUM_SYM  &kp SPACE   &mo QUICK     &none  &kp SPACE &mo FUN
             >;
         };
     };
